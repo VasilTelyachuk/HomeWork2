@@ -6,32 +6,74 @@ body{
     font-weight: normal; 
 }
 .wrapper{
-    display: inline-block;
+display: inline-block;
 width: 1200px;
 height: 2079px; 
-margin: auto;
+    }
+.main-header{
+     margin: 72px 315px 98px 315px;
+     text-align: center;
     }
 .main-menu-item{
-    display: inline-block;  
-    }
+    display: inline-block;
+        }
 .main-menu{
     text-transform: uppercase;
     list-style: none;
+    padding: 0px;
+        }
+#Link1{
+    margin-right: 122px;
+}
+#Link2{
+    margin-right: 105px;
+}
+#Link3{
+    margin-right: 95px;
 }
 .main-menu-link{
+    color: #626262;
     text-decoration: none;
+        }
+a:hover{
+    color: #03a9f4;
 }
+.main-content{
+    margin: 0px 150px 0px 150px;
+}
+article{
+    display: inline-block;
+    width: 420px;
+    margin-right: -4px;
+}
+.img{
+    margin-bottom: 30px;
+    }
+.content1{
+    margin-right: 60px;
+}
+.content3{
+    margin-right: 60px;
+}
+.content5{
+    margin-right: 60px;
+    margin-bottom: 50px;
+    }
 .title{
     color:#b4ad9e;
     text-transform: uppercase;
     font-family: "Ubuntu";
     font-weight: 300;
     line-height: 17px;
+    margin-bottom: 25px;
 }
 .info-title{
     font-size: 30px;
     line-height: 36px;
+    margin-bottom: 32px;
 }
-.button{
+.button {
     font-size: 20px;
+    color: #dddcd7;
+    text-align: center;
 }
