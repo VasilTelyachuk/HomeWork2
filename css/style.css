@@ -8,20 +8,21 @@ body {
 .wrapper {
   display: inline-block;
   width: 1200px;
-  height: 2079px;
+  margin: 0px auto;
 }
 .main-header {
-  margin: 72px 315px 98px 315px;
+  padding: 62px 314px 0px 314px;
+  margin-bottom: 98px;
 }
 .main-menu {
   text-transform: uppercase;
   list-style: none;
-  width: 572px;
-  padding: 0px 0px 0px 50px;
+  padding: 0px;
+  margin: 0px;
 }
 .main-menu-item {
   display: inline-block;
-  margin-right: 70px;
+  margin-right: 75px;
 }
 .main-menu-link {
   display: block;
@@ -33,26 +34,29 @@ a:hover {
   color: #03a9f4;
 }
 .main-content {
-  margin: 0px 150px;
+  display: block;
+  width: 900px;
+  margin: 0px auto;
 }
-article {
+.menu-content {
   display: inline-block;
-  width: 420px;
-  margin-right: -4px;
+  padding: 0px;
+  margin: 0px -4px 0px 0px;
+  list-style: none;
 }
-.content1 {
+.menu-content-item{
+  display: inline-block;
+  width: 420px; 
+}
+.menu-content-item:nth-child(2n+1)  { 
   margin-right: 60px;
   margin-bottom: 130px;
 }
-.content3 {
-  margin-right: 60px;
-  margin-bottom: 137px;
-}
-.content5 {
-  margin-right: 60px;
-  margin-bottom: 52px;
+.img{
+ margin-bottom: 30px;
 }
 .title {
+  display: block;
   color: #b4ad9e;
   text-transform: uppercase;
   font-family: "Ubuntu";
@@ -63,22 +67,20 @@ article {
 .info-title {
   font-size: 30px;
   line-height: 36px;
+  margin-top: 0px;
   margin-bottom: 32px;
 }
 .content {
-  margin-bottom: 0px;
-}
-.button {
-  display: inline-block;
-  width: 164px;
-  height: 60px;
-  margin: 0px 380px 70px 358px;
+  margin: 0px;
 }
 .main-button {
+  display: block;
   font-size: 20px;
   color: #626262;
   text-align: center;
-  border: solid 1px;
-  padding: 18px 0px 18px 0px;
-  margin-top: 0px;
+  padding: 25px 34px 25px 34px;
+  border-style: solid ;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 71px;
 }
