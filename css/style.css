@@ -1,79 +1,84 @@
-body{
-    font-family: "Playfair Display", serif;  
-    color: #626262;
-    font-size: 14px;  
-    line-height: 24px;
-    font-weight: normal; 
+body {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
 }
-.wrapper{
-display: inline-block;
-width: 1200px;
-height: 2079px; 
-    }
-    .main-header{
-        margin: 72px 315px 98px 315px;
-    }
-.main-menu{
-    text-transform: uppercase;
-    list-style: none;
-    width: 572px; 
-    padding:0px 0px 0px 50px;
-                }
-.main-menu-item{
-    display: inline-block;
-    margin-right: 70px;
-    }            
-.main-menu-link{
-    display: block;
-    color: #626262;
-    text-decoration: none;
-    text-align: center;  
-        }
-a:hover{
-    color: #03a9f4;
+.wrapper {
+  display: inline-block;
+  width: 1200px;
+  height: 2079px;
 }
-.main-content{
-    margin: 0px 150px 0px 150px;
+.main-header {
+  margin: 72px 315px 98px 315px;
 }
-article{
-    display: inline-block;
-    width: 420px;
-    margin-right: -4px;
+.main-menu {
+  text-transform: uppercase;
+  list-style: none;
+  width: 572px;
+  padding: 0px 0px 0px 50px;
 }
-.content1{
-    margin-right: 60px;
-    margin-bottom: 130px;
+.main-menu-item {
+  display: inline-block;
+  margin-right: 70px;
 }
-.content3{
-    margin-right: 60px;
-    margin-bottom: 130px;
+.main-menu-link {
+  display: block;
+  color: #626262;
+  text-decoration: none;
+  text-align: center;
 }
-.content5{
-    margin-right: 60px;
-    margin-bottom: 77px;
-    }
-.title{
-    color:#b4ad9e;
-    text-transform: uppercase;
-    font-family: "Ubuntu";
-    font-weight: 300;
-    line-height: 17px;
-    margin-bottom: 25px;
+a:hover {
+  color: #03a9f4;
 }
-.info-title{
-    font-size: 30px;
-    line-height: 36px;
-    margin-bottom: 32px;
+.main-content {
+  margin: 0px 150px;
 }
-.button{  
-    width: 164px;
-    height: 60px;
+article {
+  display: inline-block;
+  width: 420px;
+  margin-right: -4px;
+}
+.content1 {
+  margin-right: 60px;
+  margin-bottom: 130px;
+}
+.content3 {
+  margin-right: 60px;
+  margin-bottom: 137px;
+}
+.content5 {
+  margin-right: 60px;
+  margin-bottom: 52px;
+}
+.title {
+  color: #b4ad9e;
+  text-transform: uppercase;
+  font-family: "Ubuntu";
+  font-weight: 300;
+  line-height: 17px;
+  margin-bottom: 25px;
+}
+.info-title {
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 32px;
+}
+.content {
+  margin-bottom: 0px;
+}
+.button {
+  display: inline-block;
+  width: 164px;
+  height: 60px;
+  margin: 0px 380px 70px 358px;
 }
 .main-button {
-    font-size: 20px;
-    color: #dddcd7;
-    text-align: center;
-    border: solid 1px; 
-    margin-top: 0px;
-    margin-bottom:90px;
+  font-size: 20px;
+  color: #626262;
+  text-align: center;
+  border: solid 1px;
+  padding: 18px 0px 18px 0px;
+  margin-top: 0px;
 }
