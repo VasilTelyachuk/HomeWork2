@@ -35,13 +35,13 @@ a:hover {
 }
 .main-content {
   display: block;
-  width: 900px;
+  width: 904px;
   margin: 0px auto;
 }
 .menu-content {
   display: inline-block;
   padding: 0px;
-  margin: 0px -4px 0px 0px;
+  margin: 0px 0px 0px 0px;
   list-style: none;
 }
 .menu-content-item{
